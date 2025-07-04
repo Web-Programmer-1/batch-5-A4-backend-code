@@ -4,9 +4,6 @@ import config from "./config/index";
 
 
 
-// server-side
-// CLZBvAGW6B2cEuMd
-
 
 const boostrap = async () => {
 
@@ -49,3 +46,4 @@ app.listen(config.port, () => {
 
 
 
+// end
