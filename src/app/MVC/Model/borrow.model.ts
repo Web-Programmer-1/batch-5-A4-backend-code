@@ -3,11 +3,6 @@ import { IBorrow } from "../../Interface/borrow.interface";
 
 
 
-// bookId: {
-//   type: Schema.Types.ObjectId as any,
-//   ref: 'Book',
-//   required: true,
-// }
 
 
 

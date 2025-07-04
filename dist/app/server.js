@@ -15,8 +15,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importDefault(require("mongoose"));
 const app_1 = __importDefault(require("./app"));
 const index_1 = __importDefault(require("./config/index"));
-// server-side
-// CLZBvAGW6B2cEuMd
 const boostrap = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
         yield mongoose_1.default.connect(index_1.default.database_url);
@@ -30,3 +28,4 @@ boostrap();
 app_1.default.listen(index_1.default.port, () => {
     console.log(`Express Basic Server Running Test!!`);
 });
+// end
